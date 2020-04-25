@@ -63,17 +63,14 @@ h1 {
   background-size: cover;*/
 
 button {
-  padding: 16px;
+  padding: 8px;
   margin: 13px;
   text-align: center;
 }
 
 button a {
   text-decoration: none;
-  font-size: 0.9em;
-  letter-spacing: 1px;
-  text-decoration: none;
-  text-transform: uppercase;
+  font-size: 1.2em;
 }
 button a:hover {
 }
@@ -82,8 +79,9 @@ button a:hover {
   width: 100%;
   height: 400px;
 }
-#about h1 {
+.head {
   text-align: center;
+  text-transform: uppercase;
 }
 #about img {
   float: right;
@@ -93,4 +91,33 @@ button a:hover {
   margin-left: 100px;
   padding: 15px;
   line-height: 23px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+.sample {
+  background-color: black;
+  box-shadow: 2px 2px grey;
+  flex-grow: 2;
+  color: white;
+  width: calc(50% - 100px);
+  /* height: calc(100% - 100px);*/
+  margin: 50px;
+  padding: 40px;
+}
+.sample h1 {
+  text-align: center;
+  padding: 20px;
+}
+.sample p {
+  padding: 5px;
+  line-height: 23px;
+}
+.sample a {
+  text-decoration: none;
+}
+.sample a:hover {
 }
