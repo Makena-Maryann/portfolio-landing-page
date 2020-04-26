@@ -27,8 +27,8 @@ Email address: maryann.makena00@gmail.com
 
 ## Link to live version
 
-{Paste the link to gh-pages here}
+https://makena-maryann.github.io/portfolio-landing-page/
 
 ### License
 
-Copyright (c) {2020} Maryann Makena
+&copy MIT 2020 Maryann Makena
