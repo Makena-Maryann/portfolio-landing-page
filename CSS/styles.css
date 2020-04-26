@@ -53,8 +53,8 @@ nav ul li a:hover {
   margin-top: 80px;
   text-align: center;
   height: 400px;
-  background-image: url("images/underwater.jpeg");
-  background-color: rgb(9, 47, 90);
+  background-image: url("/images/underwater.jpeg");
+  background-color: #000;
   background-repeat: no-repeat;
   background-size: cover;
 }
