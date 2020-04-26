@@ -31,4 +31,4 @@ https://makena-maryann.github.io/portfolio-landing-page/
 
 ### License
 
-&copy MIT 2020 Maryann Makena
+MIT (c) 2020 Maryann Makena
