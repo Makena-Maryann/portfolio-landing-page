@@ -14,7 +14,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);*/
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1px;
 }
@@ -173,6 +173,6 @@ button a:hover {
 #contact p {
   padding-bottom: 20px;
 }
-/*Give home margin/padding.*/
 /*Work on readme*/
 /*add a license to the project*/
+/*link to gh-pages*/
