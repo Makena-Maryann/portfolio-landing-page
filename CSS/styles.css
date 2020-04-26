@@ -145,6 +145,7 @@ button a {
 #contact {
   text-align: center;
   padding: 40px;
+  background-color: rgba(120, 126, 126, 0.479);
 }
 #contact a {
   text-decoration: none;
