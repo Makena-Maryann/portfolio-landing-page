@@ -111,7 +111,7 @@ button a {
   box-sizing: border-box;
 }
 .sample {
-  background-color: rgba(199, 207, 207, 0.479);
+  background-color: rgba(217, 223, 223, 0.479);
   box-shadow: 2px 2px grey;
   flex-grow: 2;
   color: white;
