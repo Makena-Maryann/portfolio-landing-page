@@ -53,7 +53,7 @@ nav ul li a:hover {
   margin-top: 80px;
   text-align: center;
   height: 400px;
-  background-image: url("/images/underwater.jpeg");
+  background-image: url("images/underwater.jpeg");
   background-color: rgb(9, 47, 90);
   background-repeat: no-repeat;
   background-size: cover;
@@ -173,6 +173,5 @@ button a:hover {
 #contact p {
   padding-bottom: 20px;
 }
-/*Work on readme*/
 /*add a license to the project*/
 /*link to gh-pages*/
