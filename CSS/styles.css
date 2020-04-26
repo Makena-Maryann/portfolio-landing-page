@@ -9,13 +9,14 @@ body {
 
 /*navbar*/
 nav {
-  background-color: rgb(9, 47, 90);
+  background-color: #000;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1px;
 }
 
 nav ul {
@@ -31,7 +32,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-  background: black;
+  background: aqua;
 }
 
 nav ul li a {
@@ -44,6 +45,9 @@ nav ul li a {
   text-transform: uppercase;
 }
 
+nav ul li a:hover {
+  color: #000;
+}
 /*home*/
 #home {
   margin-top: 80px;
@@ -82,15 +86,20 @@ button a {
   color: #fff;
 }
 
+button a:hover {
+  color: #000;
+}
+
 /*About*/
 #about {
   width: 100%;
   height: 400px;
   background-color: rgba(199, 207, 207, 0.479);
 }
-.head {
+#about h1 {
   text-align: center;
   text-transform: uppercase;
+  padding-top: 20px;
 }
 #about img {
   float: right;
@@ -103,7 +112,14 @@ button a {
 }
 /*Projects*/
 #projects {
-  background-color: rgb(9, 47, 90);
+  background-color: #000;
+}
+
+.head {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 20px;
 }
 .flex {
   display: flex;
@@ -111,8 +127,8 @@ button a {
   box-sizing: border-box;
 }
 .sample {
-  background-color: rgba(217, 223, 223, 0.479);
-  box-shadow: 2px 2px grey;
+  background-color: rgba(4, 253, 211, 0.863);
+  /*box-shadow: 2px 2px grey;*/
   flex-grow: 2;
   color: white;
   width: calc(50% - 100px);
@@ -138,7 +154,7 @@ button a {
   color: black;
 }
 .link a:hover {
-  color: aqua;
+  color: #fff;
 }
 
 /*Contacts*/
@@ -157,3 +173,6 @@ button a {
 #contact p {
   padding-bottom: 20px;
 }
+/*Give home margin/padding.*/
+/*Work on readme*/
+/*add a license to the project*/
