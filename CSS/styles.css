@@ -9,7 +9,7 @@ body {
 
 /*navbar*/
 nav {
-  background-color: #10104e;
+  background-color: rgb(9, 47, 90);
   position: fixed;
   top: 0;
   left: 0;
@@ -49,33 +49,37 @@ nav ul li a {
   margin-top: 80px;
   text-align: center;
   height: 400px;
-  background-image: url("/images/butterfly.resized.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#home h2,
-h1 {
-  padding: 10px;
-}
-
-#home {
   background-image: url("/images/underwater.jpeg");
+  background-color: rgb(9, 47, 90);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#home h2 {
+  padding: 10px;
+  color: #fff;
+}
+
+#home h1 {
+  padding: 10px;
+  color: #fff;
 }
 
 button {
   padding: 8px;
   margin: 13px;
   text-align: center;
+  background: none;
+}
+
+button:hover {
+  background-color: aqua;
 }
 
 button a {
   text-decoration: none;
   font-size: 1.2em;
-}
-button a:hover {
+  color: #fff;
 }
 
 /*About*/
@@ -98,13 +102,16 @@ button a:hover {
   line-height: 23px;
 }
 /*Projects*/
+#projects {
+  background-color: rgb(9, 47, 90);
+}
 .flex {
   display: flex;
   justify-content: space-around;
   box-sizing: border-box;
 }
 .sample {
-  background-color: black;
+  background-color: rgba(199, 207, 207, 0.479);
   box-shadow: 2px 2px grey;
   flex-grow: 2;
   color: white;
@@ -116,6 +123,7 @@ button a:hover {
 .sample h1 {
   text-align: center;
   padding: 20px;
+  color: black;
 }
 .sample p {
   padding: 5px;
@@ -127,9 +135,10 @@ button a:hover {
 }
 .link a {
   text-decoration: none;
-  color: aqua;
+  color: black;
 }
 .link a:hover {
+  color: aqua;
 }
 
 /*Contacts*/
